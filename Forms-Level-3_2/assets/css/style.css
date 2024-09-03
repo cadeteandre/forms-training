@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    width: 40%;
+}
+
+header {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-switch {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    height: 20px;
+    font-size: 15px;
+    background-color: black;
+}
+
+.page-switch a {
+    color: white;
+    width: 50%;
+}
+
+.page-switch:hover {
+    background-color: rgb(111, 166, 111);
+}
+
+.page-switch a {
+    font-size: 20px;
+}

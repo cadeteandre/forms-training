@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    padding: 5px;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin: 3px 0;
+}
+
+input {
+    margin: 3px 0;
+}
+
+.gender-radio {
+    display: inline-block;
+    width: auto;
+    margin-right: 3px;
+}
+
+.disp-flex {
+    display: flex;
+}
+
+.disp-flex label {
+    align-self: center;
+}
+
+.disp-flex span {
+    margin-left: 5px;
+    align-self: flex-end;
+}
+
+.checkbox {
+    width: auto;
+}
+
+.btn input, .btn button {
+    margin: 2px;
+    padding: 2px 5px;
+}

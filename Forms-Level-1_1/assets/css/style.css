@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 100px auto;
+    padding: 10px 20px;
+    width: 500px;
+}
+
+section {
+    margin: 15px;
+}
+
+label {
+    margin: 0.3rem 0 0.2rem 0;
+    display: flex;
+}
+
+.required::after {
+    content: "*";
+    color: red;
+}
+
+input {
+    width: 49%;
+}
+
+.email, .games, .nachricht {
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit {
+    border: 1px solid rgb(29, 120, 232);
+    margin: 0.3rem 0 0.2rem 0;
+    padding: 0.6rem 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(29, 120, 232);
+}
+
+button:hover {
+    background-color: rgb(51, 92, 174);
+}

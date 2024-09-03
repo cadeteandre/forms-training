@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Erstes Formular</legend>
+
+            <section>
+                <label class="required" for="text">Name</label>
+                <input type="text" name="text" id="text" placeholder="Vorname" required>
+                <input type="text" name="text" id="text" placeholder="Nachname" required>
+            </section>
+
+            <section>
+                <label class="required" for="email">Email</label>
+                <input class="email" type="email" name="email" id="email" required>
+            </section>
+
+            <section>
+                <label for="games">Game</label>
+                <select class="games" name="games" id="games">
+                    <option value="red-dead2">Red Dead Redemption 2</option>
+                    <option value="spiderman">Spiderman</option>
+                    <option value="super-mario">Super Mario</option>
+                    <option value="zelda">Legend of Zelda 2</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="nachricht">Nachricht</label>
+                <textarea class="nachricht" name="" id="nachricht"></textarea>
+
+                <button class="submit">Submit</button>
+            </section>
+        </fieldset>
+    </form>
+</body>
+</html>

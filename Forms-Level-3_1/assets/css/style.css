@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 2px;
+    border-top: none;
+    border-color: #faf3ff;
+}
+
+section {
+    padding: 10px;
+}
+
+section label {
+    
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(124, 58, 210);
+    color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+legend {
+    font-size: 30px;
+}
+
+.header span {
+    font-size: 15px;
+}
+
+h2 {
+    color: #8755b9;
+    margin-left: 3%;
+}
+
+.number-1::before {
+    content: "1";
+    text-align: center;
+    margin: 0 3% 0 -9%;
+    background-color: #8755b9;
+    display: inline-block;
+    width: 30px;
+    border-radius: 50px;
+    color: white;
+}
+.number-2::before {
+    content: "2";
+    text-align: center;
+    margin: 0 3% 0 -9%;
+    background-color: #8755b9;
+    display: inline-block;
+    width: 30px;
+    border-radius: 50px;
+    color: white;
+}
+.number-3::before {
+    content: "3";
+    text-align: center;
+    margin: 0 3% 0 -9%;
+    background-color: #8755b9;
+    display: inline-block;
+    width: 30px;
+    border-radius: 50px;
+    color: white;
+}
+
+.form-style {
+    background-color: rgba(242, 240, 245, 0.93);
+    display: block;
+    padding: 10px 0;
+    margin-left: 3%;
+    border-radius: 10px;
+    color: #360f5f;
+}
+
+.form-style input {
+    display: block;
+    width: 80%;
+    height: 30px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.form-style label {
+    margin-left: 10%;
+}
+
+.submit {
+    background-color: #8755b9;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.submit-checkbox {
+    display: flex;
+    align-content: space-between;
+}
