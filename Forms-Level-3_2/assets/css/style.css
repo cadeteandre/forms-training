@@ -6,34 +6,68 @@
 
 body {
     width: 40%;
+    height: 100vh;
 }
 
 header {
     width: 100%;
+    background-color: #3d4237;
 }
 
 a {
     text-decoration: none;
 }
 
+form {
+    background-color: #3d4237;
+    color: white;
+    height: 40%;
+}
+
+fieldset {
+    height: 100%;
+    border: none;
+}
+
+legend {
+    font-size: 2.5rem;
+}
+
+.login {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login input {
+    background-color: #3d4237;
+    border: 1px 2px inset #3d4237;
+    width: 90%;
+    height: 2rem;
+}
+
 .page-switch {
     display: inline-block;
     text-align: center;
-    width: 40%;
-    height: 20px;
+    width: 49%;
+    height: 40px;
     font-size: 15px;
-    background-color: black;
+    border: 1px groove #4dc589;
 }
 
 .page-switch a {
     color: white;
-    width: 50%;
 }
 
 .page-switch:hover {
-    background-color: rgb(111, 166, 111);
+    background-color: #6fa66f;
 }
 
 .page-switch a {
     font-size: 20px;
+}
+
+section a {
+    color: white;
 }
